@@ -15,22 +15,22 @@
       <div class="margin flex">
         <h4 class='center'>Edit Existing Dog</h4>
         <form id='dog-form' class="padding margin border-round border-grey">
-          <input type="text" name="name" placeholder="dog's name" value="" />
-          <input type="text" name="breed" placeholder="dog's breed" value="" />
-          <input type="text" name="sex" placeholder="dog's sex" value="" />
+          <input type="text" id="form-dog-name" name="name" placeholder="dog's name" value="" />
+          <input type="text" id="form-dog-breed" name="breed" placeholder="dog's breed" value="" />
+          <input type="text" id="form-dog-sex" name="sex" placeholder="dog's sex" value="" />
           <input type="submit" value="Submit" />
         </form>
       </div>
 
       <div class="margin flex">
         <h4 class='center'>Registered Dogs</h4>
-        <table class='margin' border="1">
+        <table class='margin' id="dog-table" border="1">
           <thead class='blue'>
             <tr class='padding'>
-              <th class='padding center'>Name</th>
-              <th class='padding center'>Breed</th>
-              <th class='padding center'>Sex</th>
-              <th class='padding center'>Edit Dog</th>
+              <th class='padding center' id="dog-name">Name</th>
+              <th class='padding center' id="dog-breed">Breed</th>
+              <th class='padding center' id="dog-sex">Sex</th>
+              <th class='padding center' id="edit-dog">Edit Dog</th>
             </tr>
           </thead>
           <tbody id="table-body">
